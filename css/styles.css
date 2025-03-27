@@ -1,37 +1,91 @@
-/* Exemple de personnalisation */
+/* Font de base */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f5f8fa; /* Couleur de fond clair, comme Twitter */
+    margin: 0;
+    padding: 0;
   }
   
-  /* Ajuster l'apparence de la barre de navigation */
+  /* Barre de navigation "façon Twitter" */
+  .navbar-twitter {
+    background-color: #1DA1F2 !important; /* Couleur principale Twitter */
+  }
+  
+  /* Logo / Titre nav */
   .navbar-brand {
     font-weight: bold;
     letter-spacing: 1px;
   }
   
-  /* Ajuster la section d'accueil */
+  /* Liens nav */
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+  }
+  
+  /* Survol */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+  }
+  
+  /* Section d'accueil */
+  #accueil {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #fff;
+  }
+  
+  /* Titres Accueil */
   #accueil h1 {
     font-size: 2.5rem;
     font-weight: bold;
+    color: #1DA1F2;
   }
   
   #accueil p.lead {
     font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto;
+    color: #555;
   }
   
-  /* Ajuster la présentation des cartes de projets */
+  /* Bouton principal façon Twitter */
+  .btn-twitter {
+    background-color: #1DA1F2;
+    border: none;
+  }
+  
+  .btn-twitter:hover {
+    background-color: #1991DA;
+  }
+  
+  /* Présentation des cartes de projets */
   .card {
     transition: transform 0.3s ease;
+    border: none;
+    border-radius: 10px;
   }
   
   .card:hover {
     transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
   
-  /* Pied de page */
+  /* Images des cartes */
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Footer */
   footer {
     font-size: 0.9rem;
+    background-color: #fff;
+    color: #555;
+    padding: 1rem;
+  }
+  footer p {
+    margin: 0;
   }
   

@@ -15,12 +15,12 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navigation thème Twitter -->
+  <nav class="navbar navbar-expand-lg navbar-twitter">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Mon Portfolio</a>
+      <a class="navbar-brand text-white" href="#">Mon Portfolio</a>
       <button 
-        class="navbar-toggler" 
+        class="navbar-toggler text-white" 
         type="button" 
         data-bs-toggle="collapse" 
         data-bs-target="#navbarNav" 
@@ -33,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#accueil">Accueil</a>
+            <a class="nav-link" href="#accueil">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projets">Projets</a>
@@ -50,19 +50,18 @@
   </nav>
 
   <!-- Section d'accueil -->
-  <header class="bg-light py-5" id="accueil">
-    <div class="container text-center">
+  <header id="accueil">
+    <div class="container">
       <h1 class="mb-3">Bonjour, je suis [Ton Nom]</h1>
       <p class="lead">Étudiant à l'EPITA, passionné d'informatique et de développement logiciel.</p>
-      <a href="#projets" class="btn btn-primary mt-3">Voir mes projets</a>
+      <a href="#projets" class="btn btn-twitter mt-3 text-white">Voir mes projets</a>
     </div>
   </header>
 
   <!-- Section Projets -->
   <section class="py-5" id="projets">
     <div class="container">
-      <h2 class="text-center mb-4">Mes Projets</h2>
-      
+      <h2 class="text-center mb-4" style="color: #1DA1F2;">Mes Projets</h2>
       <div class="row">
         <!-- Projet 1 -->
         <div class="col-md-6 col-lg-4 mb-4">
@@ -73,12 +72,12 @@
               alt="Illustration du projet 1" 
             />
             <div class="card-body">
-              <h5 class="card-title">Projet 1</h5>
+              <h5 class="card-title" style="color: #1DA1F2;">Projet 1</h5>
               <p class="card-text">
                 Brève description du projet 1 : son objectif, les technologies utilisées, les enjeux, etc.
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer bg-white border-0">
               <a 
                 href="https://github.com/ton-compte/projet1" 
                 class="btn btn-outline-primary" 
@@ -99,12 +98,12 @@
               alt="Illustration du projet 2" 
             />
             <div class="card-body">
-              <h5 class="card-title">Projet 2</h5>
+              <h5 class="card-title" style="color: #1DA1F2;">Projet 2</h5>
               <p class="card-text">
                 Brève description du projet 2 : son objectif, les technologies utilisées, etc.
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer bg-white border-0">
               <a 
                 href="https://github.com/ton-compte/projet2" 
                 class="btn btn-outline-primary"
@@ -125,12 +124,12 @@
               alt="Illustration du projet 3" 
             />
             <div class="card-body">
-              <h5 class="card-title">Projet 3</h5>
+              <h5 class="card-title" style="color: #1DA1F2;">Projet 3</h5>
               <p class="card-text">
                 Brève description du projet 3 : explique rapidement la finalité, etc.
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer bg-white border-0">
               <a 
                 href="https://github.com/ton-compte/projet3" 
                 class="btn btn-outline-primary"
@@ -147,9 +146,9 @@
   </section>
 
   <!-- Section Compétences -->
-  <section class="bg-light py-5" id="competences">
+  <section class="py-5" id="competences" style="background-color: #fff;">
     <div class="container">
-      <h2 class="text-center mb-4">Compétences</h2>
+      <h2 class="text-center mb-4" style="color: #1DA1F2;">Compétences</h2>
       <div class="row">
         <div class="col-md-4">
           <ul>
@@ -179,7 +178,7 @@
   <!-- Section Contact -->
   <section class="py-5" id="contact">
     <div class="container">
-      <h2 class="text-center mb-4">Contact</h2>
+      <h2 class="text-center mb-4" style="color: #1DA1F2;">Contact</h2>
       <div class="row justify-content-center">
         <div class="col-md-6">
           <form>
@@ -195,7 +194,7 @@
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <button type="submit" class="btn btn-twitter text-white">Envoyer</button>
           </form>
         </div>
       </div>
@@ -203,7 +202,7 @@
   </section>
 
   <!-- Pied de page -->
-  <footer class="bg-dark text-white text-center py-3">
+  <footer class="text-center">
     <p class="mb-0">
       &copy; 2025 [Ton Nom] — Étudiant EPITA.
     </p>
